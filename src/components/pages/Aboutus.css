@@ -1,0 +1,138 @@
+.section-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax {
+  background-image: url("../../../public/images/Nosotros/nosotros-2.webp");
+}
+
+.parallax1 {
+  background-image: url("../../../public/images/Nosotros/nosotros-3.webp");
+}
+
+.parallax2 {
+  background-image: url("../../../public/images/Nosotros/nosotros-4.webp");
+}
+
+.parallax3 {
+  background-image: url("../../../public/images/Nosotros/nosotros-1.webp");
+}
+
+.parallax4 {
+  background-image: url("../../../public/images/Nosotros/nosotros-5.webp");
+}
+
+.parallax5 {
+  background-image: url("../../../public/images/Nosotros/nosotros-7.webp");
+}
+
+.parallax6 {
+  background-image: url("../../../public/images/Nosotros/nosotros-6.webp");
+}
+
+.parallax7 {
+  background-image: url("../../../public/images/Nosotros/nosotros-9.webp");
+}
+
+.text-bloc p {
+  margin: 75px;
+  font-size: 22px;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: #fff;
+  color: #ce181e;
+  font-size: 20px;
+  padding: 1em;
+  display: none;
+  border-radius: 25%;
+}
+
+.go-top:hover {
+  background-color: #000;
+  color: #ce181e;
+}
+
+@media screen and (max-width: 960px) {
+  .section-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parallax {
+    background-image: url("../../../public/images/Nosotros/nosotros-movil.webp");
+  }
+  
+  .parallax1 {
+    background-image: url("../../../public/images/Nosotros/nosotros-3.webp");
+  }
+  
+  .parallax2 {
+    background-image: url("../../../public/images/Nosotros/nosotros-4.webp");
+  }
+  
+  .parallax3 {
+    background-image: url("../../../public/images/Nosotros/nosotros-1.webp");
+  }
+  
+  .parallax4 {
+    background-image: url("../../../public/images/Nosotros/nosotros-5.webp");
+  }
+  
+  .parallax5 {
+    background-image: url("../../../public/images/Nosotros/nosotros-7.webp");
+  }
+  
+  .parallax6 {
+    background-image: url("../../../public/images/Nosotros/nosotros-6.webp");
+  }
+  
+  .parallax7 {
+    background-image: url("../../../public/images/Nosotros/nosotros-9.webp");
+  }
+
+  .go-top {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    text-decoration: none;
+    color: white;
+    background-color: #fff;
+    color: #ce181e;
+    font-size: 20px;
+    padding: 1em;
+    display: none;
+    border-radius: 25%;
+  }
+  
+  .go-top:hover {
+    background-color: #000;
+    color: #ce181e;
+  }
+
+  #button {
+    margin: 30px;
+  }
+}
